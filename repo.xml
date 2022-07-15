@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta 
+  xmlns="http://exist-db.org/xquery/repo">
+  <description>My amazing my-dayy application</description>
+  <author>foke</author>
+  <website>http://exist-db.org</website>
+  <status>beta</status>
+  <license>MIT</license>
+  <copyright>true</copyright>
+  <type>application</type>
+  <target>my-day</target>
+  <finish>post-install.xq</finish>
+</meta>

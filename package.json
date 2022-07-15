@@ -1,0 +1,41 @@
+{
+  "name": "my-dayy",
+  "version": "1.0.0",
+  "description": "My amazing my-dayy application",
+  "homepage": "https://github.com/foke/my-dayy#readme",
+  "bugs": "https://github.com/foke/my-dayy/issues",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "exist",
+    "exist-db",
+    "xml",
+    "xql",
+    "xquery"
+  ],
+  "author": {
+    "name": "foke",
+    "email": "foke2@luc.edu"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/mocha/ --recursive --exit && mocha test/xqs/*.js",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foke/my-dayy",
+    "license": "MIT"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-xml": "^0.4.0",
+    "cypress": "^10.3.0",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4",
+    "xmldoc": "^1.2.0",
+    "yeoman-assert": "^3.1.1"
+  }
+}
